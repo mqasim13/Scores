@@ -1,2 +1,2 @@
 # Scores
-Card Based Scores
+A responsive card-based scoreboard

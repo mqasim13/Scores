@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Scores!! A card based ScoreBoard</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/custom.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div class="meny">
+      <h3>More Scores</h3>
+      <ul>
+        <li>NHL</li>
+        <li>MLB</li>
+        <li>NFL</li>
+        <li>F1</li>
+        <li>NASCAR</li>
+      </ul>
+      <h3>About</h3>  
+    </div>
+
+    <div class="contents">
+      <div class="container">
+      <h3> Scores: A card based scoreboard</h3>
+      </div>
+      <div container-fluid>
+        <div class ="col-md-4 col-sm-4">
+          <div class="well well-lg">
+          <div class="row">
+          <div class="col-md-4">
+          <!-- HOME TEAM -->
+          <figure class="center">
+          <img src="img/AtlantaFlames.png" alt="Atlanta Flames" height="42" width="42">
+          <figcaption><br><h4>Atlanta Flames</h4><br></figcaption>
+          </figure>
+          </div>
+          <div class="col-md-4">
+          <!-- SCORE -->
+          <h3>5 - 2</h3>
+          </div>
+          <div class="col-md-4">
+          <!-- AWAY TEAM -->
+          <figure>
+          <img src="img/Bruins.png" alt="Atlanta Flames" height="42" width="42">
+          <figcaption><br><h4>Boston Bruins</h4><br></figcaption>
+          </figure>
+          </div>
+          </div>
+          </div>
+          <div class="well well-lg">
+          <h3>Hello, world!</h3>
+          </div>
+          <div class="well well-lg">
+          <h3>Hello, world!</h3>
+        </div>
+        </div>
+    <!-- COLUMN 2 -->
+        <div class ="col-md-4">
+          <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+          <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+           <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+        </div>
+    <!-- COLUMN 3 -->
+        <div class ="col-md-4">
+          <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+          <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+           <div class="well well-lg">
+            <h3>Hello, world!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <!-- Meny js (for the menu) -->
+    <script src="js/meny.js"></script>
+      <script>
+      var meny = Meny.create({
+      // The element that will be animated in from off screen
+      menuElement: document.querySelector( '.meny' ),
+
+      // The contents that gets pushed aside while Meny is active
+      contentsElement: document.querySelector( '.contents' ),
+
+      // The alignment of the menu (top/right/bottom/left)
+      position: 'left',
+
+      // The height of the menu (when using top/bottom position)
+      height: 200,
+
+      // The width of the menu (when using left/right position)
+      width: 260,
+
+      // The angle at which the contents will rotate to.
+      angle: 30,
+
+      // The mouse distance from menu position which can trigger menu to open.
+      threshold: 40,
+
+      // Width(in px) of the thin line you see on screen when menu is in closed position.
+      overlap: 6,
+
+      // The total time taken by menu animation.
+      transitionDuration: '0.5s',
+
+      // Transition style for menu animations
+      transitionEasing: 'ease',
+
+      // Gradient overlay for the contents
+      gradient: 'rgba(0,0,0,0.35) 100%, rgba(0,0,0,0) 100%)',
+
+      // Use mouse movement to automatically open/close
+      mouse: true,
+
+      // Use touch swipe events to open/close
+      touch: true
+      });
+      </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
